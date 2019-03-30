@@ -10,7 +10,8 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["COM2",
+            // "args": ["COM2",
+            "args": ["test.db",
             ]
         },
         {
