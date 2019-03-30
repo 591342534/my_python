@@ -1,28 +1,28 @@
-°²×°
+å®‰è£…
 pip install virtualenv
 
 
-´´½¨ĞéÄâ»·¾³
+åˆ›å»ºè™šæ‹Ÿç¯å¢ƒ--no-site-packages æ²¡æœ‰æ’ä»¶
 virtualenv venv
 
-²é¿´ĞéÄâ»·¾³°æ±¾
+æŸ¥çœ‹è™šæ‹Ÿç¯å¢ƒç‰ˆæœ¬
 virtualenv --version
 
-Ò²¿ÉÒÔµ¥¶ÀÖ¸¶¨ĞéÄâ»·¾³Ê¹ÓÃµÄpython°æ±¾ºÅ
+ä¹Ÿå¯ä»¥å•ç‹¬æŒ‡å®šè™šæ‹Ÿç¯å¢ƒä½¿ç”¨çš„pythonç‰ˆæœ¬å·
 virtualenv -p C:\Program Files\Python37-32\python.exe venv
 
-¼¤»îĞéÄâ»·¾³
+æ¿€æ´»è™šæ‹Ÿç¯å¢ƒ
 activate venv
 
-Í£Ö¹¼¤»îĞéÄâ»·¾³
+åœæ­¢æ¿€æ´»è™šæ‹Ÿç¯å¢ƒ
 deactivate venv
 
-É¾³ıĞéÄâ»·¾³
+åˆ é™¤è™šæ‹Ÿç¯å¢ƒ
 rmvirtualenv venv
 
-µ¼³örequirements.txt
+å¯¼å‡ºrequirements.txt
 pip freeze > requirements.txt
 
-µ¼Èërequirements.txt
+å¯¼å…¥requirements.txt
 pip install -r requirements.txt
 
