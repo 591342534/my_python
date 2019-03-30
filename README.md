@@ -25,6 +25,12 @@ git branch -a
 
 git remote -v
 
+git fetch
+
+git merge
+
+git pull
+
 git push -f https://github.com/591342534/my_python local_python:master
 
 git push -f origin master
