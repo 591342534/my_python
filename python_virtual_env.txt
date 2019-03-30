@@ -1,0 +1,28 @@
+安装
+pip install virtualenv
+
+
+创建虚拟环境
+virtualenv venv
+
+查看虚拟环境版本
+virtualenv --version
+
+也可以单独指定虚拟环境使用的python版本号
+virtualenv -p C:\Program Files\Python37-32\python.exe venv
+
+激活虚拟环境
+activate venv
+
+停止激活虚拟环境
+deactivate venv
+
+删除虚拟环境
+rmvirtualenv venv
+
+导出requirements.txt
+pip freeze > requirements.txt
+
+导入requirements.txt
+pip install -r requirements.txt
+
